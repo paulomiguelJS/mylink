@@ -1,4 +1,5 @@
 import {FiLink} from 'react-icons/fi'
+import Menu from '../../components/Menu'
 import './home.css'
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
           </div>
           <button>Generate Link</button>
         </div>
+        <Menu />
       </div>
     );
   }

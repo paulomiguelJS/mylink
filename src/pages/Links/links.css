@@ -49,3 +49,21 @@
     border: 0;
     background-color: transparent;
 }
+
+@media (max-width: 715px) {
+    .links-container {
+        width: 90%;
+    }
+
+    .logo h1{
+        font-size: 40px;
+    }
+
+    .links-item {
+        width: 100%;
+    }
+
+    .link{
+        width: 100%;
+    }
+}
