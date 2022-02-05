@@ -1,12 +1,12 @@
 import "./link-item.css";
 import { FiX, FiClipboard } from "react-icons/fi";
 
-function Menu() {
+function LinkItem({closeModal}) {
   return (
     <div className="modal-container">
       <div className="modal-header">
         <h2>Shortened link</h2>
-        <button>
+        <button onClick={closeModal}>
           <FiX size={28} color="#000" />
         </button>
       </div>
@@ -21,4 +21,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default LinkItem;

@@ -9,9 +9,10 @@ import LinkItem from '../../components/LinkItem'
 function Home() {
 
   const [link, setLink] = useState('')
+  const [showModal, setShowModal] = useState(false)
 
   function handleShortLink () {
-
+    setShowModal(true)
   }
 
     return (
@@ -33,10 +34,14 @@ function Home() {
           <button onClick={handleShortLink}>Generate Link</button>
         </div>
         <Menu />
-        <LinkItem />
+
+        {showModal && (
+          <LinkItem 
+          closeModal={() => setShowModal(false)} />
+        )}
       </div>
     );
   }
   
   export default Home;
-  
+    

@@ -10,9 +10,17 @@
     border-radius: flex;
     display: flex;
     flex-direction: column;
-    flex-direction: column;
+    animation: slideY 1.5s;
 }
 
+@keyframes slideY{
+    from{
+        transform: translateY(90px)
+    }
+    to{
+        transform: translateY(0);
+    }
+}
 .modal-header{
     display: flex;
     align-items: center;
