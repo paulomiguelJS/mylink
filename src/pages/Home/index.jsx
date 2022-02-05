@@ -1,8 +1,19 @@
+import { useState } from 'react';
 import {FiLink} from 'react-icons/fi'
-import Menu from '../../components/Menu'
 import './home.css'
 
+import Menu from '../../components/Menu'
+import LinkItem from '../../components/LinkItem'
+
+
 function Home() {
+
+  const [link, setLink] = useState('')
+
+  function handleShortLink () {
+
+  }
+
     return (
       <div className="container-home">
         <div className="logo">
@@ -14,11 +25,15 @@ function Home() {
         <div className="area-input">
           <div>
               <FiLink size={24} color="#fff" backgroundColor="transparent"  />
-              <input placeholder='Paste your link here' />
+              <input 
+              placeholder='Paste your link here' 
+              value={link}
+              onChange={(e)=> setLink(e.target.value)}/>
           </div>
-          <button>Generate Link</button>
+          <button onClick={handleShortLink}>Generate Link</button>
         </div>
         <Menu />
+        <LinkItem />
       </div>
     );
   }
