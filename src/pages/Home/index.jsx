@@ -4,7 +4,9 @@ import './home.css'
 
 import Menu from '../../components/Menu'
 import LinkItem from '../../components/LinkItem'
+
 import api from '../../services/api'
+import {saveLink} from '../../services/storeLinks'
 
 
 function Home() {
@@ -22,6 +24,7 @@ function Home() {
       setData(response.data)
       setShowModal(true)
 
+      saveLink('@shortenLink', response.data )
       setLink('')
 
     } catch {
@@ -41,7 +44,7 @@ function Home() {
 
         <div className="area-input">
           <div>
-              <FiLink size={24} color="#fff" backgroundColor="transparent"  />
+              <FiLink size={24} color="#fff" backgroundcolor="transparent"  />
               <input 
               placeholder='Paste your link here' 
               value={link}
