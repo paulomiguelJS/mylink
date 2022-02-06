@@ -1,4 +1,3 @@
-import { key } from "./api"
 
 export async function getLinksSave(key){
     const myLinks = await localStorage.getItem(key)
@@ -15,7 +14,7 @@ export async function saveLink(key, newLink) {
     const hasLink = linksStored.some(link => link.id === newLink.id)
     
     if(hasLink){
-        //
+        
         return
     }
 linksStored.push(newLink)
