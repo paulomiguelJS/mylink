@@ -11,9 +11,13 @@
 }
 
 .social {
-    margin-right: 14px;
+    margin-right: 30px;
     display: flex;
     align-items: center;
+}
+
+.logoPM{
+    width: 36px;
 }
 
 .menu-item {
