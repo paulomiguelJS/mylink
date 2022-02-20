@@ -23,11 +23,9 @@
 <ul>
     <li><a href="https://create-react-app.dev/" target="_blank">React</a></li>
     <li><a href="https://reactrouter.com/" target="_blank">React Router</a></li>
-    <li><a href="https://styled-components.com/" target="_blank">Styled Components</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" target="_blank">FETCH</a></li>
-    <li><a href="https://dev.bitly.com/" target="_blank">BITLY  API</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" target="_blank">Fetch</a></li>
+    <li><a href="https://dev.bitly.com/" target="_blank">Bitly API</a></li>
 
-    <li><a href="https://create-react-app.dev//" target="_blank">CRA</a></li>
 
 </ul>
 
