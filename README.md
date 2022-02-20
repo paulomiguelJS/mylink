@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+<div align='center'>
+<img src='./readme/banner.png'>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
+    <img src="https://img.shiels.io/github/repo-size/paulomigueljs/mylink">
+    <img src="https://img.shields.io/github/last-commit/paulomigueljs/mylink">
+    <img src="https://img.shields.io/github/languages/count/paulomigueljs/mylink">
+    <img src="https://img.shields.io/github/languages/top/paulomigueljs/mylink">
+</div>
+</div>
 
-## Available Scripts
+</br>
 
-In the project directory, you can run:
+<h1>My Link</h1>
 
-### `npm start`
+<h2>🔖 Description</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>My Link is a link management application that lets you harness the power of your links by shortening, and sharing. </p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</br>
 
-### `npm test`
+<h2>🚀 Technologies</h2>
+<ul>
+    <li><a href="https://create-react-app.dev/" target="_blank">React</a></li>
+    <li><a href="https://reactrouter.com/" target="_blank">React Router</a></li>
+    <li><a href="https://styled-components.com/" target="_blank">Styled Components</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" target="_blank">FETCH</a></li>
+    <li><a href="https://dev.bitly.com/" target="_blank">BITLY  API</a></li>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    <li><a href="https://create-react-app.dev//" target="_blank">CRA</a></li>
 
-### `npm run build`
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>ℹ️ Click here to visit:</h2>
+<a href="https://mylink-blue.vercel.app/" target="_blank">My Link</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
+<br>
 
-### `npm run eject`
+<h2>ℹ️ To run this project you need:</h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Clone this repository
+    $ git clone https://github.com/paulomiguelJS/mylink.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Install dependencies
+    $ yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Run project
+    $ yarn start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+Created with 💙 by <a href="https://github.com/paulomiguelJS/rocket-movies" target="_blank">Paulo Miguel</a></p>
