@@ -65,13 +65,15 @@ function Links() {
         <button className="link-delete" onClick={ () => handleDelete(link.id)}>
           <FiTrash size={24} color="#FF5454" />
         </button>
-      </div>
-      ))}
-      
+         
       {showModal && (
         <LinkItem closeModal={() => setShowModal(false)}
         content={data} />
       )}
+      </div>
+      
+      ))}
+     
     </div>
   );
 }
