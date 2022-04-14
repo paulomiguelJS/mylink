@@ -32,7 +32,7 @@
 <br>
 
 <h2>ℹ️ Click here to visit:</h2>
-<a href="https://mylink-blue.vercel.app/" target="_blank">My Link</a>
+<a href="https://my-link-one.vercel.app/" target="_blank">My Link</a>
 
 <br>
 <br>
